@@ -1,4 +1,4 @@
-#Sat Feb 06 08:45:33 NPT 2021
+#Sat Feb 06 18:35:57 NPT 2021
 base.0=D\:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

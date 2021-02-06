@@ -14,6 +14,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "carousel_pro",
+      "rootUri": "file:///C:/Users/Shreedhar/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/carousel_pro-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "characters",
       "rootUri": "file:///C:/Users/Shreedhar/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/characters-1.1.0-nullsafety.3",
       "packageUri": "lib/",
@@ -140,7 +146,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-06T02:57:55.381613Z",
+  "generated": "2021-02-06T11:58:20.606914Z",
   "generator": "pub",
   "generatorVersion": "2.10.4"
 }
