@@ -1,5 +1,8 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:ecommerce_flutter/components/horizontal_listview.dart';
+import 'package:ecommerce_flutter/components/Products.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -20,8 +23,31 @@ class _HomePageState extends State<HomePage> {
 
     Widget imageCarousel = new Container(
       height: 200.0,
+      child: new Carousel(
+        boxFit: BoxFit.cover,
+        images: [
+          AssetImage('images/c1.jpg'),
+          AssetImage('images/2.jpg'),
+          AssetImage('images/4.jpg'),
+          AssetImage('images/5.jpg'),
+          AssetImage('images/m1.jpeg'),
+          AssetImage('images/m2.jpg'),
+        ],
+        autoplay: false,
+        // animationCurve: Curves.fastOutSlowIn,
+        // animationDuration: Duration(milliseconds: 1000),
+        dotSize: 4.0,
+        dotColor: Colors.black,
+        indicatorBgPadding: 2.0,
+
+
+      ),
+
     );
-    Widget titleSection = new Container();
+    Widget category = new Container(
+      height: 50.0,
+      child: new Row(),
+    );
 
 
     return Scaffold(
@@ -132,9 +158,33 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
 
-      body: Column(
+      body: ListView(
         children: [
-          titleSection,
+
+          imageCarousel,
+          new Padding(padding: const EdgeInsets.all(0.0),
+          child: new Text('Categories',
+          style: TextStyle(color: Colors.blueGrey,
+          fontSize: 16.0,),),
+          ),
+          //Horizontal List View
+          HorizontalList(),
+
+          //Divider(),
+
+
+          new Padding(padding: const EdgeInsets.all(19.0),
+            child: new Text('Recent Products',
+              style: TextStyle(color: Colors.blueGrey,
+                fontSize: 16.0,),),
+          ),
+
+          //grid view
+          Container(
+            height: 300.0,
+              child: Products(),
+          )
+
 
         ],
 
