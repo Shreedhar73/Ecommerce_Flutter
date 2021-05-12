@@ -31,6 +31,21 @@
             ]
         },
         {
+            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-mr\\values-mr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-v16_values-v16.arsc.flat",
             "map": [
                 {
@@ -46,10 +61,25 @@
             ]
         },
         {
-            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-mr_values-mr.arsc.flat",
+            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-mr\\values-mr.xml",
+                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "202",
+                        "endOffsets": "253"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -71,36 +101,6 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-vi_values-vi.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "D:\\Flutter Projects\\ecommerce_flutter\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rXC_values-en-rXC.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Shreedhar\\.gradle\\caches\\transforms-2\\files-2.1\\6b399c2363bb098ebde1725d903cbda0\\core-1.1.0\\res\\values-en-rXC\\values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "202",
-                        "endOffsets": "253"
                     }
                 }
             ]

@@ -33,8 +33,14 @@ dependencies:
   cupertino_icons: ^1.0.0
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.7.3"
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.jpg"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -60,6 +66,9 @@ flutter:
     - images/w1.jpeg
     - images/w3.jpeg
     - images/c1.jpg
+    - images/X2.jpg
+    - images/PP.jpg
+    - images/Insa.jpg
     - images/cats/accessories.png
     - images/cats/dress.png
     - images/cats/jeans.png
@@ -75,6 +84,7 @@ flutter:
     - images/products/pants1.jpg
     - images/products/pants2.jpeg
     - images/products/shoe1.jpg
+    - images/logo.jpg
 
 
 

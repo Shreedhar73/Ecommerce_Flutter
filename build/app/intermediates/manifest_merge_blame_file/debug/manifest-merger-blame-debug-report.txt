@@ -30,8 +30,8 @@
 25        android:debuggable="true"
 26        android:icon="@mipmap/ic_launcher"
 26-->D:\Flutter Projects\ecommerce_flutter\android\app\src\main\AndroidManifest.xml:11:9-43
-27        android:label="ecommerce_flutter" >
-27-->D:\Flutter Projects\ecommerce_flutter\android\app\src\main\AndroidManifest.xml:10:9-42
+27        android:label="Shopify" >
+27-->D:\Flutter Projects\ecommerce_flutter\android\app\src\main\AndroidManifest.xml:10:9-32
 28        <activity
 28-->D:\Flutter Projects\ecommerce_flutter\android\app\src\main\AndroidManifest.xml:12:9-40:20
 29            android:name="com.fallen700.ecommerce_flutter.MainActivity"
